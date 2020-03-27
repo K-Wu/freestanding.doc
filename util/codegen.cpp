@@ -22,10 +22,10 @@ THE SOFTWARE.
 
 */
 
-#include <fstream>
-#include <vector>
-#include <string>
-#include <map>
+#include <fstream.hxx>
+#include <vector.hxx>
+#include <string.hxx>
+#include <map.hxx>
 
 using namespace std::string_literals;
 

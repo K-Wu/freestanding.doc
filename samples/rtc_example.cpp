@@ -24,7 +24,7 @@ THE SOFTWARE.
 
 #include <nvrtc.h>
 #include <cuda.h>
-#include <iostream>
+#include <iostream.hxx>
 
 #define NVRTC_SAFE_CALL(x)                                        \
   do {                                                            \
@@ -39,9 +39,9 @@ THE SOFTWARE.
 const char *trie =
 R"xxx(
 
-#include <simt/cstddef>
-#include <simt/cstdint>
-#include <simt/atomic>
+#include <simt/cstddef.hxx>
+#include <simt/cstdint.hxx>
+#include <simt/atomic.hxx>
 
 template<class T> static constexpr T min(T a, T b) { return a < b ? a : b; }
 

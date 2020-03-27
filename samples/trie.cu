@@ -22,9 +22,9 @@ THE SOFTWARE.
 
 */
 
-#include <simt/cstddef>
-#include <simt/cstdint>
-#include <simt/atomic>
+#include <simt/cstddef.hxx>
+#include <simt/cstdint.hxx>
+#include <simt/atomic.hxx>
 
 template<class T> static constexpr T minimum(T a, T b) { return a < b ? a : b; }
 
@@ -96,15 +96,15 @@ void call_make_trie(trie* t, simt::std::atomic<trie*>* bump, const char* begin, 
 
 __global__ void do_nothing() { }
 
-#include <iostream>
-#include <cassert>
-#include <fstream>
-#include <utility>
-#include <chrono>
-#include <thread>
-#include <memory>
-#include <vector>
-#include <string>
+#include <iostream.hxx>
+#include <cassert.hxx>
+#include <fstream.hxx>
+#include <utility.hxx>
+#include <chrono.hxx>
+#include <thread.hxx>
+#include <memory.hxx>
+#include <vector.hxx>
+#include <string.hxx>
 
 #define check(ans) { assert_((ans), __FILE__, __LINE__); }
 inline void assert_(cudaError_t code, const char *file, int line) {

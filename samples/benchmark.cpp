@@ -22,29 +22,29 @@ THE SOFTWARE.
 
 */
 
-#include <cmath>
-#include <mutex>
-#include <thread>
-#include <vector>
-#include <string>
-#include <iostream>
-#include <iomanip>
-#include <numeric>
-#include <tuple>
-#include <set>
-#include <chrono>
+#include <cmath.hxx>
+#include <mutex.hxx>
+#include <thread.hxx>
+#include <vector.hxx>
+#include <string.hxx>
+#include <iostream.hxx>
+#include <iomanip.hxx>
+#include <numeric.hxx>
+#include <tuple.hxx>
+#include <set.hxx>
+#include <chrono.hxx>
 
-#include <simt/cstdint>
-#include <simt/cstddef>
-#include <simt/climits>
-#include <simt/ratio>
-#include <simt/chrono>
-#include <simt/limits>
-#include <simt/type_traits>
-#include <simt/atomic>
-#include <simt/barrier>
-#include <simt/latch>
-#include <simt/semaphore>
+#include <simt/cstdint.hxx>
+#include <simt/cstddef.hxx>
+#include <simt/climits.hxx>
+#include <simt/ratio.hxx>
+#include <simt/chrono.hxx>
+#include <simt/limits.hxx>
+#include <simt/type_traits.hxx>
+#include <simt/atomic.hxx>
+#include <simt/barrier.hxx>
+#include <simt/latch.hxx>
+#include <simt/semaphore.hxx>
 
 #ifdef __CUDACC__
 # define _ABI __host__ __device__

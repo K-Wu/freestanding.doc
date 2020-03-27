@@ -22,9 +22,9 @@ THE SOFTWARE.
 
 */
 
-#include <cstddef>
-#include <cstdint>
-#include <atomic>
+#include <cstddef.hxx>
+#include <cstdint.hxx>
+#include <atomic.hxx>
 
 template<class T> static constexpr T min(T a, T b) { return a < b ? a : b; }
 
@@ -82,15 +82,15 @@ void make_trie(/* trie to insert word counts into */ trie& root,
     }
 }
 
-#include <iostream>
-#include <cassert>
-#include <fstream>
-#include <utility>
-#include <chrono>
-#include <thread>
-#include <memory>
-#include <vector>
-#include <string>
+#include <iostream.hxx>
+#include <cassert.hxx>
+#include <fstream.hxx>
+#include <utility.hxx>
+#include <chrono.hxx>
+#include <thread.hxx>
+#include <memory.hxx>
+#include <vector.hxx>
+#include <string.hxx>
 
 void do_trie(std::string const& input, int threads) {
     

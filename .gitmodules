@@ -1,3 +1,3 @@
 [submodule "libcxx"]
 	path = libcxx
-	url = https://github.com/ogiroux/libcxx
+	url = https://github.com/K-Wu/libcxx.doc
